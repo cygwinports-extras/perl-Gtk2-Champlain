@@ -1,0 +1,54 @@
+perl-Gtk2-Champlain
+------------------------------------------
+Perl bindings for the libchamplain GTK+ integration library
+
+Runtime requirements:
+  cygwin-1.7.0-62
+  libchamplain-gtk0.4_0-0.4.2-1
+  libgcc1-4.3.4-1
+  libglib2.0_0-2.22.2-1
+  libgtk2.0_0-2.18.3-1
+  perl-5.10.0-5
+  perl-Champlain-0.10-1
+  perl-Glib-1.222-1
+  perl-Gtk2-1.221-1
+  perl-Gtk2-Clutter-0.100_001-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gcc4-core-4.3.4-1
+  make-3.81-2
+  perl-ExtUtils-Depends-0.302-1
+  perl-ExtUtils-PkgConfig-1.12-1
+
+Canonical website:
+  http://search.cpan.org/dist/Gtk2-Champlain/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/P/PO/POTYL/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gtk2-Champlain-0.01-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gtk2-Champlain-0.01-X.cygport all
+
+This will create:
+  /usr/src/perl-Gtk2-Champlain-0.01-X-src.tar.bz2
+  /usr/src/perl-Gtk2-Champlain-0.01-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.01-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

@@ -1,0 +1,4 @@
+category: Perl Gnome
+requires: libchamplain-gtk0.4_0 libgcc1 libglib2.0_0 libgtk2.0_0 perl perl-Champlain perl-Glib perl-Gtk2 perl-Gtk2-Clutter
+sdesc: "Perl libchamplain-gtk bindings"
+ldesc: "Perl bindings for the libchamplain GTK+ integration library"
